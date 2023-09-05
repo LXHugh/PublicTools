@@ -1,42 +1,26 @@
-# PublicTools
+#公共类方法
 
-
-/**
- 全局对象
- @par MacroFrame   设计frame
- @par MacroObject   常用对象
- */
+###设计frame
 ```#import <PublicFrameWork/MacroFrame.h>```
+###常用对象
 ```#import <PublicFrameWork/MacroObject.h>```
 
-
-
-/**
- 常用的设计方法
- @par PublicToolsClass   公共类
- */
+###公共类
 ```#import <PublicFrameWork/PublicToolsClass.h>```
 
 
 
-/**
- 继承父类
- @par LBaseView   父类View
- @par LBaseViewController   父类VC
- @par LBaseNavigationController   父类navigation
- */
+###父类View
 ```#import <PublicFrameWork/LBaseView.h>```
+###父类VC
 ```#import <PublicFrameWork/LBaseViewController.h>```
+###父类navigation
 ```#import <PublicFrameWork/LBaseNavigationController.h>```
 
 
-
-/**
- 扩展类
- @par UIView+Gesture    添加手势
- @par UIView+Gradient   渐变色
- @par UITextView+Placeholder    textView添加占位符
-*/
+###添加手势
 ```#import <PublicFrameWork/UIView+Gesture.h>```
+###渐变色
 ```#import <PublicFrameWork/UIView+Gradient.h>```
+###textView添加占位符
 ```#import <PublicFrameWork/UITextView+Placeholder.h>```
