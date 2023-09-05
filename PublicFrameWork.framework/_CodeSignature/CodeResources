@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/LBaseNavigationController.h</key>
+		<data>
+		Mbv6FopbT+4A23yAOul7xpqA8GU=
+		</data>
 		<key>Headers/LBaseView.h</key>
 		<data>
 		0PZAUk2bIDLQqJoOetkth0+paeo=
@@ -14,11 +18,23 @@
 		</data>
 		<key>Headers/PublicFrameWork.h</key>
 		<data>
-		mzmtkMCWSDrjVD4HuSejYkL5KUw=
+		sV5wyezUOlA0EGdAswvYmAqjhCs=
 		</data>
 		<key>Headers/PublicToolsClass.h</key>
 		<data>
 		lqcCV0ZRZWfKzXX2Ubv6apxoD6E=
+		</data>
+		<key>Headers/UITextView+Placeholder.h</key>
+		<data>
+		CxJV74d8SBWAT2P9ojKDQ3mb7YE=
+		</data>
+		<key>Headers/UIView+Gesture.h</key>
+		<data>
+		pG/CoLzXoZoLx37cF7tb+GDiJM8=
+		</data>
+		<key>Headers/UIView+Gradient.h</key>
+		<data>
+		Cee39g1KWV6FLWCHB3cbTIjdrjk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -31,6 +47,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/LBaseNavigationController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Mbv6FopbT+4A23yAOul7xpqA8GU=
+			</data>
+			<key>hash2</key>
+			<data>
+			s/4bQY4fHEPHBDENFpTwXiQtOJ1CBhkcGFy/QHqWtog=
+			</data>
+		</dict>
 		<key>Headers/LBaseView.h</key>
 		<dict>
 			<key>hash</key>
@@ -57,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mzmtkMCWSDrjVD4HuSejYkL5KUw=
+			sV5wyezUOlA0EGdAswvYmAqjhCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			dTyQ8CI7S8NvPPiDYEDoOXf5psK+T9p5I8KoWiwkx9s=
+			FCBW0/wjaLRGLvIahUTsI3HZ4cX42k2mYvCkjLvNibs=
 			</data>
 		</dict>
 		<key>Headers/PublicToolsClass.h</key>
@@ -73,6 +100,39 @@
 			<key>hash2</key>
 			<data>
 			qf3ewdrod8+PE2SY45QNxjvmM3LZnyrNtRUsXpW0ik4=
+			</data>
+		</dict>
+		<key>Headers/UITextView+Placeholder.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CxJV74d8SBWAT2P9ojKDQ3mb7YE=
+			</data>
+			<key>hash2</key>
+			<data>
+			+imqvu7j2cq6lA2BVWKWBLB+wop4+DswaD5m3nTMH4o=
+			</data>
+		</dict>
+		<key>Headers/UIView+Gesture.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pG/CoLzXoZoLx37cF7tb+GDiJM8=
+			</data>
+			<key>hash2</key>
+			<data>
+			IA2EFoXsQInLljCd5LXC7mnt3Rh5GcvEjV10w3oPsxk=
+			</data>
+		</dict>
+		<key>Headers/UIView+Gradient.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cee39g1KWV6FLWCHB3cbTIjdrjk=
+			</data>
+			<key>hash2</key>
+			<data>
+			UggsXJFo06nR/x4OkbiYDoK0ucTYQgUK/2af37nG+Dg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
