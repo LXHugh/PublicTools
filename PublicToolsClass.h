@@ -15,12 +15,25 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark -- view样式设置
 /**
  设置单边圆角
- @par rect 视图位置大小
- @par view 需要设置的视图
- @par corner 设置的对应边角
- @par radii 圆角尺寸
+ @par rect            视图位置大小
+ @par view           需要设置的视图
+ @par corner        设置的对应边角
+ @par radii            圆角尺寸
  */
 + (void)viewBeizerRect:(CGRect)rect view:(UIView *)view corner:(UIRectCorner)corner cornerRadii:(CGSize)radii;
+
+/**
+ 设置渐变色
+ @par view           需要设置的视图
+ @par sColor        开头的颜色
+ @par eColor        结束的颜色
+ @par sPoint        开始的位置
+ @par ePoint        结束的位置
+ */
++ (void)viewGradient:(UIView *)view stratColor:(UIColor *)sColor endColor:(UIColor *)eColor stratPoint:(CGPoint)sPoint endPoint:(CGPoint)ePoint;
+
+//view转换成image
++ (UIImage *)makeImageWithView:(UIView *)view withSize:(CGSize)size;
 
 /**
  生成二维码图片

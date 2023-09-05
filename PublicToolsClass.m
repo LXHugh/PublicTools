@@ -12,9 +12,7 @@
 @implementation PublicToolsClass
 
 #pragma mark -- view样式设置
-/**
- 设置单边圆角
- */
+//设置单边圆角
 + (void)viewBeizerRect:(CGRect)rect view:(UIView *)view corner:(UIRectCorner)corner cornerRadii:(CGSize)radii {
     UIBezierPath *maskPath= [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corner cornerRadii:radii];
     CAShapeLayer *maskLayer = [CAShapeLayer layer];
@@ -23,8 +21,30 @@
     view.layer.mask = maskLayer;
 }
 
+//设置渐变色
++ (void)viewGradient:(UIView *)view stratColor:(UIColor *)sColor endColor:(UIColor *)eColor stratPoint:(CGPoint)sPoint endPoint:(CGPoint)ePoint {
+    CAGradientLayer *layer = [CAGradientLayer layer];
+    layer.frame = CGRectMake(0, 0, CGRectGetWidth(view.frame), CGRectGetHeight(view.frame));
+    layer.colors = @[(__bridge  id)sColor.CGColor, (__bridge  id)eColor.CGColor];
+    layer.startPoint = sPoint;
+    layer.endPoint = ePoint;
+    layer.locations = @[@0,@0.25,@0.5,@0.75,@1];
+    [view.layer addSublayer:layer];
+}
+
+//view转换成image
++ (UIImage *)makeImageWithView:(UIView *)view withSize:(CGSize)size {
+    //下面方法，第一个参数表示区域大小。第二个参数表示是否是非透明的。如果需要显示半透明效果，需要传NO，否则传YES。第三个参数就是屏幕密度了，关键就是第三个参数 [UIScreen mainScreen].scale。
+    UIGraphicsBeginImageContextWithOptions(size, NO, [UIScreen mainScreen].scale);
+    [view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+
+//生成二维码
 + (UIImage *)QRCodeGenerate:(NSString*)codeUrl imageWidth:(CGFloat)imageW {
-    //生成二维码
+    
     // 1. 创建一个二维码滤镜实例(CIFilter)
     CIFilter *filter = [CIFilter filterWithName:@"CIQRCodeGenerator"];
     // 滤镜恢复默认设置
