@@ -18,8 +18,8 @@ FOUNDATION_EXPORT const unsigned char PublicFrameWorkVersionString[];
 
 /**
  全局对象
- @par MacroFrame   设计frame
- @par MacroObject   常用对象
+ @par MacroFrame                                      设计frame
+ @par MacroObject                                      常用对象
  */
 #import <PublicFrameWork/MacroFrame.h>
 #import <PublicFrameWork/MacroObject.h>
@@ -28,7 +28,7 @@ FOUNDATION_EXPORT const unsigned char PublicFrameWorkVersionString[];
 
 /**
  常用的设计方法
- @par PublicToolsClass   公共类
+ @par PublicToolsClass                               公共类
  */
 #import <PublicFrameWork/PublicToolsClass.h>
 
@@ -36,11 +36,9 @@ FOUNDATION_EXPORT const unsigned char PublicFrameWorkVersionString[];
 
 /**
  继承父类
- @par LBaseView   父类View
- @par LBaseViewController   父类VC
- @par LBaseNavigationController   父类navigation
+ @par LBaseViewController                         父类VC
+ @par LBaseNavigationController                父类navigation
  */
-#import <PublicFrameWork/LBaseView.h>
 #import <PublicFrameWork/LBaseViewController.h>
 #import <PublicFrameWork/LBaseNavigationController.h>
 
@@ -48,11 +46,19 @@ FOUNDATION_EXPORT const unsigned char PublicFrameWorkVersionString[];
 
 /**
  扩展类
- @par UIView+Gesture    添加手势
- @par UIView+Gradient   渐变色
- @par UITextView+Placeholder    textView添加占位符
+ @par UIView+Gesture                                添加手势
+ @par UIView+Gradient                               渐变色
+ @par UITextView+Placeholder                   textView添加占位符
+ @par UITextView+Position                         view的位置
 */
 #import <PublicFrameWork/UIView+Gesture.h>
 #import <PublicFrameWork/UIView+Gradient.h>
 #import <PublicFrameWork/UITextView+Placeholder.h>
+#import <PublicFrameWork/UITextView+Position.h>
 
+
+/**
+ 特殊改造control
+ @par LXLabel                                               文字垂直位置
+ */
+#import <PublicFrameWork/LXLabel.h>

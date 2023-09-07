@@ -8,17 +8,17 @@
 		<data>
 		Mbv6FopbT+4A23yAOul7xpqA8GU=
 		</data>
-		<key>Headers/LBaseView.h</key>
-		<data>
-		0PZAUk2bIDLQqJoOetkth0+paeo=
-		</data>
 		<key>Headers/LBaseViewController.h</key>
 		<data>
-		PIRCZK1um6I1JIbI42LCBdFiEhA=
+		0OKqXrMO00/PKFYSqrIlDJqJGag=
+		</data>
+		<key>Headers/LXLabel.h</key>
+		<data>
+		ryI3FEhvuaVZAbsBOktlat0UcMU=
 		</data>
 		<key>Headers/PublicFrameWork.h</key>
 		<data>
-		sV5wyezUOlA0EGdAswvYmAqjhCs=
+		Exf8uhrhUy9CTtmaNtCkdU4LKEU=
 		</data>
 		<key>Headers/PublicToolsClass.h</key>
 		<data>
@@ -35,6 +35,10 @@
 		<key>Headers/UIView+Gradient.h</key>
 		<data>
 		Cee39g1KWV6FLWCHB3cbTIjdrjk=
+		</data>
+		<key>Headers/UIView+Position.h</key>
+		<data>
+		VT07U3gdpI870NhPp6GcrVC1FYk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -58,37 +62,37 @@
 			s/4bQY4fHEPHBDENFpTwXiQtOJ1CBhkcGFy/QHqWtog=
 			</data>
 		</dict>
-		<key>Headers/LBaseView.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0PZAUk2bIDLQqJoOetkth0+paeo=
-			</data>
-			<key>hash2</key>
-			<data>
-			LJLeBP8/ucpLmoqW+XDB3as3gPSPyJHYYxgX7xebbVs=
-			</data>
-		</dict>
 		<key>Headers/LBaseViewController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PIRCZK1um6I1JIbI42LCBdFiEhA=
+			0OKqXrMO00/PKFYSqrIlDJqJGag=
 			</data>
 			<key>hash2</key>
 			<data>
-			aADXcK22uwbbhPkhJ+GOfw/zq+0FgMy+scPrg4pQ4Og=
+			miK9YCX/MhVXlnqZHnfDwXKZVydz+6hJjuyKs6uautY=
+			</data>
+		</dict>
+		<key>Headers/LXLabel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ryI3FEhvuaVZAbsBOktlat0UcMU=
+			</data>
+			<key>hash2</key>
+			<data>
+			de+oJErwVGNQEBzFgfal3XnV5bHPbCeaoTU/QzsRavw=
 			</data>
 		</dict>
 		<key>Headers/PublicFrameWork.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sV5wyezUOlA0EGdAswvYmAqjhCs=
+			Exf8uhrhUy9CTtmaNtCkdU4LKEU=
 			</data>
 			<key>hash2</key>
 			<data>
-			FCBW0/wjaLRGLvIahUTsI3HZ4cX42k2mYvCkjLvNibs=
+			C7TDPxScIKiCZrnqoQZ5vMtN8HMiqig6+YvJsnNMGrM=
 			</data>
 		</dict>
 		<key>Headers/PublicToolsClass.h</key>
@@ -133,6 +137,17 @@
 			<key>hash2</key>
 			<data>
 			UggsXJFo06nR/x4OkbiYDoK0ucTYQgUK/2af37nG+Dg=
+			</data>
+		</dict>
+		<key>Headers/UIView+Position.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VT07U3gdpI870NhPp6GcrVC1FYk=
+			</data>
+			<key>hash2</key>
+			<data>
+			TFPj9u11LQKbZ+F8aTl6d1gfYKpcPLMBTR1dMN7Rg0E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
