@@ -1,6 +1,0 @@
-framework module PublicFrameWork {
-  umbrella header "PublicFrameWork.h"
-
-  export *
-  module * { export * }
-}
