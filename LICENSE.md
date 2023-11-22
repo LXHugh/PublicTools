@@ -1,4 +1,4 @@
-Copyright (c) 2023-2030 YJSettingTableView Software Foundation (https://github.com/LXHugh/PublicTools)
+Copyright (c) 2023-2030 PublicTools Software Foundation (https://github.com/LXHugh/PublicTools)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

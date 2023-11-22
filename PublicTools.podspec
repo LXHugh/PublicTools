@@ -10,7 +10,7 @@ s.homepage = "https://github.com/LXHugh/PublicTools"
 # 许可证书类型，要和仓库的LICENSE 的类型一致
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 # 作者名称 和 邮箱
-s.author = { "tany" => "13511029398@163.com" }
+s.author = { "tany" => "1760289340@qq.com" }
 # 代码库最低支持的版本
 s.platform = :ios, "9.0"
 # 代码的Clone 地址 和 tag 版本
