@@ -1,20 +1,20 @@
 公共类方法
 
 
-设计frame```#import <PublicFrameWork/MacroFrame.h>```
+设计frame```MacroFrame.h```
 
-常用对象```#import <PublicFrameWork/MacroObject.h>```
+常用对象```MacroObject.h```
 
-公共类```#import <PublicFrameWork/PublicToolsClass.h>```
+公共类```PublicToolsClass.h```
 
-父类View```#import <PublicFrameWork/LBaseView.h>```
+父类View```LBaseView.h```
 
-父类VC```#import <PublicFrameWork/LBaseViewController.h>```
+父类VC```LBaseViewController.h```
 
-父类navigation```#import <PublicFrameWork/LBaseNavigationController.h>```
+父类navigation```LBaseNavigationController.h```
 
-添加手势```#import <PublicFrameWork/UIView+Gesture.h>```
+添加手势```UIView+Gesture.h```
 
-渐变色```#import <PublicFrameWork/UIView+Gradient.h>```
+渐变色```UIView+Gradient.h```
 
-textView添加占位符```#import <PublicFrameWork/UITextView+Placeholder.h>```
+textView添加占位符```UITextView+Placeholder.h```
