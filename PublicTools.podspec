@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   # 源码所在路径
-  # s.source_files = 'PublicTools/Class'
+  s.source_files = 'PublicTools/Class/PublicToolHeader.h'
   
   # 资源文件所在地址
   # s.resource_bundles = {
