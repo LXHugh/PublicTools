@@ -1,23 +1,21 @@
 //
-//  LXLabel.m
-//  PublicFrameWork
+//  VerticalLabel.m
+//  PublicTools
 //
-//  Created by 刘宣 on 2023/9/7.
+//  Created by 刘宣 on 2023/12/22.
 //
 
-#import "LXLabel.h"
+#import "VerticalLabel.h"
 
-@interface LXLabel (){
+@interface VerticalLabel (){
     @private VerticalAlignment _verticalAlignment;
 }
 
 @end
 
-@implementation LXLabel
+@implementation VerticalLabel
 
 @synthesize verticalAlignment = verticalAlignment_;
-
-
 
 #pragma mark - 文字垂直类型
 //设置垂直类型

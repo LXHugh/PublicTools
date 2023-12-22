@@ -1,8 +1,8 @@
 //
-//  LXLabel.h
-//  PublicFrameWork
+//  VerticalLabel.h
+//  PublicTools
 //
-//  Created by 刘宣 on 2023/9/7.
+//  Created by 刘宣 on 2023/12/22.
 //
 
 #import <UIKit/UIKit.h>
@@ -16,7 +16,7 @@ typedef enum{
     VerticalAlignmentBottom,    //底部
 } VerticalAlignment;
 
-@interface LXLabel : UILabel
+@interface VerticalLabel : UILabel
 
 //垂直参数
 @property (nonatomic) VerticalAlignment verticalAlignment;

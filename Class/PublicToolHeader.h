@@ -11,7 +11,8 @@
 #import "LBaseNavigationController.h"
 #import "LBaseViewController.h"
 
-#import "LXLabel.h"
+#import "VerticalLabel.h"
+#import "AutoRunLabel.h"
 
 #import "UITextView+Placeholder.h"
 #import "UIView+Gesture.h"
